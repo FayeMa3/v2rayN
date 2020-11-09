@@ -164,6 +164,11 @@ namespace v2rayN.Mode
         /// VLESS
         /// </summary>
         public string encryption { get; set; }
+
+        /// <summary>
+        /// VLESS
+        /// </summary>
+        public string flow { get; set; }         
     }
     public class Sniffing
     {
@@ -393,7 +398,12 @@ namespace v2rayN.Mode
         /// QUIC
         /// </summary>
         public QuicSettings quicSettings { get; set; }
-        
+
+        /// <summary>
+        /// VLESS xtls
+        /// </summary>
+        public TlsSettings xtlsSettings { get; set; }
+
     }
 
     public class TlsSettings
@@ -471,6 +481,10 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public Header header { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string seed { get; set; }
     }
 
     public class WsSettings
