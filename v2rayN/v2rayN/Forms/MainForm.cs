@@ -26,8 +26,8 @@ namespace v2rayN.Forms
         {
             InitializeComponent();
             this.ShowInTaskbar = false;
-            this.WindowState = FormWindowState.Minimized;
-            HideForm();
+            this.WindowState = FormWindowState.Normal;
+            //HideForm();
             this.Text = Utils.GetVersion();
             Global.processJob = new Job();
 
@@ -77,7 +77,7 @@ namespace v2rayN.Forms
 
             LoadV2ray();
 
-            HideForm();
+            //HideForm();
 
         }
 
@@ -1005,6 +1005,7 @@ namespace v2rayN.Forms
 
         private void menuExit_Click(object sender, EventArgs e)
         {
+            this.menuNotEnabledHttp_Click(sender,e);
             this.Visible = false;
             this.Close();
 

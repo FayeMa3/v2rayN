@@ -312,6 +312,14 @@
   <data name="tsbServer.Text" xml:space="preserve">
     <value>  服务器  </value>
   </data>
+
+	<data name="tsbHttpProxy.Size" type="System.Drawing.Size, System.Drawing">
+		<value>73, 53</value>
+	</data>
+	<data name="tsbHttpProxy.Text" xml:space="preserve">
+    <value>  代理模式  </value>
+  </data>
+	
   <data name="cmsMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 164</value>
   </data>
@@ -522,4 +530,19 @@
   <data name="tsbClose.Text" xml:space="preserve">
     <value>  关闭窗口  </value>
   </data>
+
+	<data name="tsbExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+		<value>
+			iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+			YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAySURBVFhH7c6xDQAgCEVBRnVTHU2ZABuMxV3yOvJDAAA/
+			GqfZVG6X8mg1dfUAAPBQxAZd0SJruVXHWwAAAABJRU5ErkJggg==
+		</value>
+	</data>
+	<data name="tsbExit.Size" type="System.Drawing.Size, System.Drawing">
+		<value>76, 53</value>
+	</data>
+	<data name="tsbExit.Text" xml:space="preserve">
+    <value>  退出  </value>
+  </data>
+	
 </root>
